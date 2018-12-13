@@ -1,0 +1,24 @@
+<view class='container'>
+  <view>{{info_location}}</view>
+  <!-- <view>{{update_time}}发布</view> -->
+  <!-- <image>{{weather_img}}</image> -->
+
+  <view>
+  <text>{{tmp_min}}℃ ~ {{tmp_max}}℃</text>
+  </view>
+
+  <view>{{weather}}</view>
+  <!-- <image class = "weather_img" src='../../cond-icon/100.png'></image> -->
+  <image class = "weather_img" src='{{cond_code_d_src}}'></image>
+  <view>
+  <text>{{wind_dir}}  {{wind_sc}}级</text>
+  </view>
+
+  <view>
+  <text>{{quality}}</text>
+  <text>{{pm}}</text>
+  </view>
+  <view>
+  <text>湿度:{{hum}}</text>
+  </view>
+</view>
